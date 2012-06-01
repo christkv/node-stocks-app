@@ -1,0 +1,25 @@
+{
+  "author": "Christian Kvalheim",
+  "name": "stocks-app",
+  "description": "Collects, calculates and displays stock info",
+  "version": "0.0.1",
+  "homepage": "https://github.com/christkv/node-stocks-app",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/christkv/node-stocks-app.git"
+  },
+  "dependencies": {
+    "express": "3.0",
+    "yql": "0.4.7",
+    "mongodb": "1.0.2",
+    "csv": "0.0.13",
+    "request": "latest"
+  },
+  "devDependencies": {
+    "nodeunit": "latest"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
